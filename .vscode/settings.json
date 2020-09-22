@@ -1,0 +1,7 @@
+{
+    "rest-client.environmentVariables": {
+        "local": {
+            "baseURL": "http://localhost:3333",
+        },
+    }
+}

@@ -1,0 +1,36 @@
+
+GET {{baseURL}}/classes
+?week_day=1
+&subject=Matemática
+&time=11:00
+
+###
+
+POST {{baseURL}}/classes
+Content-Type: application/json
+
+{
+    "name": "Leandro Santos",
+    "avatar": "https://avatars1.githubusercontent.com/u/49422741?s=400&v=4",
+    "whatsapp": "463924676",
+    "bio": "salve",
+    "subject": "Matemática",
+    "cost": 80,
+    "schedule": [
+        {
+            "week_day": 1, 
+            "from": "8:00",
+            "to": "12:00"
+        },
+        {
+            "week_day": 3,
+            "from": "10:00",
+            "to": "18:00"
+        },
+        {
+            "week_day": 4, 
+            "from": "8:00",
+            "to": "12:00"
+        }
+    ]
+}

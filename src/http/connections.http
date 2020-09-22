@@ -1,0 +1,15 @@
+POST {{baseURL}}/connections
+Content-Type: application/json
+
+{
+    "user_id": 1
+}
+
+###
+
+GET {{baseURL}}/connections
+Content-Type: application/json
+
+{
+    "user_id": 1
+}
